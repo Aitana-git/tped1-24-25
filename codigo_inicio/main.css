@@ -1,0 +1,17 @@
+header {
+    background-color: lightskyblue;
+}
+
+section {
+    background-color: slateblue;
+}
+
+img {
+    width: 33%;
+    height: auto;
+    filter: opacity(30%);
+}
+
+a:hover img {
+    filter: saturate(1);
+}
