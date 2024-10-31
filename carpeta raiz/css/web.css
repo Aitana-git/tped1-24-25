@@ -42,6 +42,7 @@ h2{
 }
 strong{
     font-weight: bolder;
+    color: black;
 }
 
 h3{
@@ -60,11 +61,40 @@ h3{
     margin-right: 400px;  
 }
 
-li{
+.li{
     font-family: Helvetica, sans-serif;
     line-height: 26px;
     margin-left: 400px;
     margin-right: 400px; 
     list-style-type: none;
     margin-bottom: 25px;
+}
+
+.menu2 {
+    background: #003245;
+    font-family: Arial, sans-serif;
+    color: white;
+    width: 100%;
+    list-style: none;
+    position: fixed;
+    text-align: center;
+}
+
+.menu2 li {
+    display: inline;
+    padding-right: 15px;
+}
+
+.menu2 a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.menu2 a:visited {
+    color: white;
+}
+
+.menu2 a:hover {
+    margin-left: 10px;
+    color: aquamarine;
 }
