@@ -1,0 +1,40 @@
+h2{
+    background-color: slateblue;
+    font-size: 80px;
+}
+
+img{
+    margin-top: 5px;
+    margin-left: 300px;
+}
+
+.enlace a:visited {
+    font-size: 25px;
+    color: black;
+    background-color: lightblue;
+    text-decoration: none;
+}
+
+.enlace {
+    font-size: 25px;
+    color: black;
+    background-color: lightblue;
+    text-decoration: none;
+}
+
+.gif {
+    width: 500px;
+    height: 500px;
+    margin-left: 500px;
+}
+
+.rayo {
+    width: 1000px;
+    height: 1000px;
+    margin-top: -250px;
+    margin-left: 300px;
+}
+
+.spoty {
+    margin-left: 100px;
+}

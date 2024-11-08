@@ -1,17 +1,32 @@
 header {
     background-color: lightskyblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-section {
+h1{
+    background-color: lightblue;
+    font-size: 80px;
+}
+
+h2{
+    background-color: slateblue;
+}
+
+section{
     background-color: slateblue;
 }
 
 img {
     width: 33%;
-    height: auto;
+    height: 33%;
     filter: opacity(30%);
 }
 
 a:hover img {
     filter: saturate(1);
+}
+
+flex-contain {
+    display: flex;
+    flex-direction: row;
 }
