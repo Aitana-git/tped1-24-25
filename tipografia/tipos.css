@@ -1,0 +1,70 @@
+flex-contain{
+    display: flex;
+    flex-direction: row;
+}
+
+#tipo1{
+    font-family: "Doto";
+}
+
+#tipo2{
+    font-family: "Edu";
+}
+
+#tipo3{
+    font-family: "Funnel";
+}
+
+#tipo4{
+    font-family: "Kanit";
+}
+
+#tipo5{
+    font-family: "Oswald";
+}
+
+#tipo6{
+    font-family: "Play";
+}
+
+.todas{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+}
+
+@font-face {
+    font-family: "Doto";
+    src: url(fuentes/Doto-VariableFont_ROND\,wght.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Edu";
+    src: url(fuentes/EduAUVICWANTArrows-VariableFont_wght.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Funnel";
+    src: url(fuentes/FunnelSans-VariableFont_wght.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Kanit";
+    src: url(fuentes/Kanit-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Oswald";
+    src: url(fuentes/Oswald-VariableFont_wght.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Play";
+    src: url(fuentes/PlayfairDisplay-VariableFont_wght.ttf);
+    font-weight: normal;
+}
